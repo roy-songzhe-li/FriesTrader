@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "moomoo": {
+      "command": "uvx",
+      "args": ["--with", "mcp<2", "moomoo-api-mcp"],
+      "env": {
+        "MOOMOO_OPEND_HOST": "127.0.0.1",
+        "MOOMOO_OPEND_PORT": "11111"
+      }
+    }
+  }
+}
